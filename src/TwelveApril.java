@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class TwelveApril {
     public static int[] productArrayExceptSelf(int[] nums) {
         int[] output = new int[nums.length];
@@ -35,6 +37,8 @@ public class TwelveApril {
     }
 
     public static void main(String[] args) {
-
+        int[] nums = {1,2,3,4,5};
+        System.out.println(Arrays.toString(productArrayExceptSelf(nums)));
+        System.out.println(increasingTripletSequence(nums));
     }
 }
