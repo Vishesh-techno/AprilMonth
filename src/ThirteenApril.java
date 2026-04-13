@@ -33,6 +33,8 @@ public class ThirteenApril {
         }
         return maxWater;
     }
+    public static final int hello = 100;
+    boolean hell = true;
 
     boolean hell = false;
     public static void main(String[] args) {
